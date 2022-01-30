@@ -33,7 +33,7 @@ jobs:
         echo PIPENV_IGNORE_VIRTUALENVS=1
     - name: Test with pytest
       run: |
-        pipenv run pytest
+        pytest
 
     - name: Lint with flake8
       run: |
