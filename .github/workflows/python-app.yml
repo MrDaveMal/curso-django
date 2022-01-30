@@ -26,6 +26,10 @@ jobs:
         pip install pipenv
         pipenv sync -d
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Set GLOBAL
+      run: |
+        echo PIPENV_VENV_IN_PROJECT=1
+        echo PIPENV_IGNORE_VIRTUALENVS=1
     - name: Test with pytest
       run: |
         pipenv run pytest
