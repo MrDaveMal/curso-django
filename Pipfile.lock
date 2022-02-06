@@ -135,11 +135,10 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:b83cf328a4f6a987c95610e76b29a30778db05174eef71f771776c48f8f25d1b",
-                "sha256:f6871e8aba174d1e22f576c7a471d8460e226b8424b0f2e929a13330b8b83118"
+                "sha256:4f783948909b28124388eef286572e9e69c228b6866d44ac7475bd82e94b6503",
+                "sha256:5d7a302d3c3ae24d3bbaaecf5c4544056b2dd44b3e6690014dc096d64f12d672"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==60.7.0"
+            "version": "==60.8.0"
         },
         "sqlparse": {
             "hashes": [
